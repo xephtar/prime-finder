@@ -1,7 +1,3 @@
-# BLG 312 E– Computer Operating Systems
-
-# 2019 – 2020 , Assignment 2
-
 ## Introduction
 
 You will code a multi-processing and multi-threading program that finds the prime numbers.
@@ -130,7 +126,7 @@ Your program should have the following functionality for the processes and threa
 
 #### // Development environment: Lubuntu 16.04
 
-#### // To compile: g++ -c Homework1.cpp –pthread
+#### // To compile: gcc -c main.c –pthread
 
 #### // To run: ./a.out interval_min interval_max np nt
 
