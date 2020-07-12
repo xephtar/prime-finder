@@ -124,61 +124,13 @@ Your program should have the following functionality for the processes and threa
 
 ## EXAMPLE:
 
-#### // Development environment: Lubuntu 16.04
+#### Development environment: Lubuntu 16.04
 
-#### // To compile: gcc -c main.c –pthread
+#### To compile: gcc -c main.c –pthread
 
-#### // To run: ./a.out interval_min interval_max np nt
+#### To run: ./a.out interval_min interval_max np nt
 
-#### // Example: ./a.out 101 200 2 2
-
-```
-Master Process
-```
-```
-Slave Process 1
-```
-```
-Worker Thread 1
-```
-```
-Worker Thread 2
-```
-```
-Worker Thread nt
-```
-##### ...
-
-```
-Slave Process 2
-```
-```
-Worker Thread 1
-```
-```
-Worker Thread 2
-```
-```
-Worker Thread nt
-```
-##### ...
-
-```
-Slave Process np
-```
-```
-Worker Thread 1
-```
-```
-Worker Thread 2
-```
-```
-Worker Thread nt
-```
-##### ...
-
-##### ...
-
+#### Example: ./a.out 101 200 2 2
 
 ### Sample Program Output
 
